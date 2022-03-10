@@ -1,0 +1,162 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+/* Header Css */
+#header{
+    height:70px;
+    width: 100%;
+    background-color: #e33442;
+}
+
+#icon{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    margin-left: 2%;
+    margin-top: -1.5%;
+}
+#social{
+    float: right;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+/* Search Box Css */
+#search{
+    height: 500px;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/zomato-background.jpg);
+    /* background-image: url('../images/zomato-background.jpg'); */
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-size: 100% 470px;
+}
+#logo{
+    color: red;;
+    height: 150px;
+    width: 150px;
+    background-color: aliceblue;
+    border-radius:50%;
+    margin-left: 46%;
+    margin-top: 2%;
+    position: absolute;
+}
+#logo span{
+    margin-left: 29%;
+    margin-top: 18%;
+    position: absolute;
+    font-size: 80px;
+}
+#heading{
+    margin-left: 26%;
+    margin-top: 14%;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+}
+#dropdown{
+    height: 60px;
+    width: 60%;
+    margin-left: 24%;
+    margin-top: 20%;
+    position: absolute
+}
+select{
+    height: 45px;
+    width: 45%;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 25px;
+}
+.restselect{
+    width: 54%;
+}
+/* QuickSearch Css */
+#quickSearch{
+    /* height: 600px; */
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+#quickHeading{
+   font-size: 30px;
+   color: crimson;
+   display: block;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+   margin-left: 2%;
+}
+#quickSubHeading{
+    font-size: 25px;
+    color: firebrick;
+    display: block;
+    line-height: 50px;
+    margin-left: 2%;
+}
+.tileContainer{
+    /* height: 400px; */
+    width: 30%;
+    box-shadow: 10px 20px 40px gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 2%;
+}
+.tileComponent1{
+    height: 180px;
+    width: 50%;
+    float: left;
+
+}
+.tileComponent1 img{
+    width: 100%;
+    height: 180px;
+}
+.tileComponent2{
+    /* height: 200px; */
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 5%;
+    float: left;
+}
+.componentHeading a{
+    color:indianred;
+    font-weight: bold;
+    font-size: 25px;;
+}
+.componentSubHeading{
+    color: black;
+    font-size: 17px;
+}
+
+/* Footer Css */
+#footer{
+    height: 150px;
+    width: 100%;
+    margin-top: 5%;
+    background-color:#1f1a21;
+}
+#footText{
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+}
+#footText{
+    text-align: center;
+}
+.footDiv{
+    height: 70px;
+    width: 33%;
+    color: #fff;
+    float: left;
+    border-right: 2px solid whitesmoke;
+    text-align: center;
+}
+.noBorder{
+    border: none;
+}

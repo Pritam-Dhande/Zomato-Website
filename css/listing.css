@@ -1,0 +1,143 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+/* Header Css */
+#header{
+    height:70px;
+    width: 100%;
+    background-color: #e33442;
+}
+
+#icon{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    margin-left:44%;
+    margin-top: -1.5%;
+}
+#social{
+    float: right;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+/* Listing Css */
+.headingText{
+    text-align: left;
+    font-weight: 20px;
+    margin-left: 10%;
+    font-size: 33px;
+    font-weight: bold;
+}
+#content{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+}
+#filterDiv{
+    height: 800px;
+    width: 20%;
+    box-shadow: 10px 20px 40px gray;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    font-size: 18px;;
+    display: block;
+}
+.filterSelect{
+    font-size: 22px;
+    font-weight:400'
+    color:black;
+    display: block;
+}
+.filterName{
+    font-size: 22px;
+    color:cornflowerblue;
+    display: block;
+}
+.filterOption{
+    text-align: left;
+    margin-left: 25%;
+    display: block;
+}
+#contentDiv{
+    height: 800px;
+    width: 75%;
+    margin-left: 4%;
+    float: left;
+}
+.location{
+}
+.menuList{
+    height: 225px;
+    width: 70%;
+    box-shadow: 5px 10px 10px gray;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 25px;
+    display: inline-block;
+}
+.menuImg{
+    height: 225px;
+    width: 40%;
+    float: left;
+}
+.menuImg img{
+    height: 225px;
+    width: 100%;
+    border-radius: 25px;
+}
+.menuInfo{
+    height: 225px;
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 2%;
+    float: left;
+}
+.menuHeading a{
+    color:black;
+    font-weight: bolder;
+    font-size: 25px;
+    line-height: 1;
+}
+.menuSubHeading{
+    color:black;
+    font-size: 20px;
+}
+.Priseing{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 0;
+    line-height: 2;
+}
+/* Footer Css */
+#footer{
+    height: 150px;
+    width: 100%;
+    margin-top: 5%;
+    background-color:#1f1a21;
+}
+#footText{
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+}
+#footText{
+    text-align: center;
+}
+.footDiv{
+    height: 70px;
+    width: 33%;
+    color: #fff;
+    float: left;
+    border-right: 2px solid whitesmoke;
+    text-align: center;
+}
+.noBorder{
+    border: none;
+}
