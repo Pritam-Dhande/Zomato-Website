@@ -1,0 +1,134 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+/* Header Css */
+#header{
+    height: 70px;
+    width: 100%;
+    background-color: #e33442;
+}
+
+#icon{
+    font-weight: bolder;
+    font-size: 20px;
+    color: #fff;
+    float: left;
+    margin-left: 44%;
+    margin-top: -1.5%;
+}
+#social{
+    float: right;
+}
+.slogo{
+    height: 50px;
+    width: 50px;
+}
+/* Details Css */
+.headingText{
+    height: 50px;
+    width: 80%;
+    color: #fff;
+    background-color:cornflowerblue;
+    text-align: left;
+    font-weight: 20px;
+    margin-left: 10%;
+    font-size: 33px;
+    font-weight: bold;
+}
+#contentDiv{
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 2px solid red; */
+}
+#imgDiv{
+    height: 450px;
+    width: 45%;
+    border: 8px groove gray;
+    float: left;
+    margin-top: 2%;
+}
+#imgDiv img{
+    height:450px;
+    width: 100%;
+}
+#detailsInfo{
+    height: 450px;
+    width: 50%;
+    /* border: 2px solid blue; */
+    float: left;
+    margin-top: 0%;
+    margin-left: 3%;
+}
+.checked{
+    color:#e33442;
+}
+.feature_container{
+    width: 100%;
+    display: inline-block;
+}
+.feature{
+    float: left;
+    margin-left: 5%;
+}
+.fetIcon{
+    height: 80px;
+    width: 80px;
+    margin-left: 2%;
+}
+h2{
+    color: green;
+    font-size: 40px;
+    line-height: 0px;
+}
+.btn{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+.btn-cart{
+    color:#fff;
+    background-color:deepskyblue;
+}
+.btn-checkbox{
+    color:#fff;
+    background-color:tomato;
+}
+.btn-cart:hover{
+    color:#fff;
+    background-color:deeppink;
+}
+.btn-checkbox:hover{
+    color:#fff;
+    background-color:chartreuse;
+}
+/* Footer Css */
+#footer{
+    height: 150px;
+    width: 100%;
+    margin-top: 5%;
+    background-color:#1f1a21;
+}
+#footText{
+    color: #fff;
+    font-size: 23px;
+    font-weight: bold;
+}
+#footText{
+    text-align: center;
+}
+.footDiv{
+    height: 70px;
+    width: 33%;
+    color: #fff;
+    float: left;
+    border-right: 2px solid whitesmoke;
+    text-align: center;
+}
+.noBorder{
+    border: none;
+}

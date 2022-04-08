@@ -6,7 +6,7 @@ a{
 }
 /* Header Css */
 #header{
-    height:70px;
+    height: 70px;
     width: 100%;
     background-color: #e33442;
 }
@@ -16,7 +16,7 @@ a{
     font-size: 20px;
     color: #fff;
     float: left;
-    margin-left:44%;
+    margin-left: 44%;
     margin-top: -1.5%;
 }
 #social{
@@ -36,9 +36,10 @@ a{
 }
 #content{
     display: inline-block;
-    width: 80%;
+    width: 82%;
     margin-left: 10%;
 }
+/* Filter Div Css */
 #filterDiv{
     height: 800px;
     width: 20%;
@@ -51,7 +52,7 @@ a{
 }
 .filterSelect{
     font-size: 22px;
-    font-weight:400'
+    font-weight: 400px;
     color:black;
     display: block;
 }
@@ -65,17 +66,16 @@ a{
     margin-left: 25%;
     display: block;
 }
+/* Content Div Css */
 #contentDiv{
     height: 800px;
     width: 75%;
     margin-left: 4%;
     float: left;
 }
-.location{
-}
 .menuList{
     height: 225px;
-    width: 70%;
+    width: 75%;
     box-shadow: 5px 10px 10px gray;
     margin-left: 2%;
     margin-top: 2%;
@@ -102,7 +102,7 @@ a{
 .menuHeading a{
     color:black;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 22px;
     line-height: 1;
 }
 .menuSubHeading{
